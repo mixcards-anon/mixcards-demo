@@ -1042,3 +1042,11 @@ table.pair { width: 100%; table-layout: fixed; border-collapse: collapse; font-s
 .source-block.src-speech .source-title h4 { color: #2e7d4f; }
 .source-block.src-sfx { background: #fff7ee; border-color: #f6e1cb; }
 .source-block.src-sfx .source-title h4 { color: #b5651d; }
+
+/* original AudioSet clip */
+.yt { margin: 0 0 0.75rem; display: flex; flex-direction: column; gap: 0.35rem; }
+.yt .plab { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.yt-frame { position: relative; width: 100%; max-width: 420px; aspect-ratio: 16 / 9; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg-soft); }
+.yt-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.yt-link { font-size: 0.82rem; color: var(--accent); text-decoration: none; }
+.yt-link:hover { text-decoration: underline; }
